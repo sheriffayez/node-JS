@@ -3,7 +3,7 @@ var routes = express.Router();
 
 routes.get("/",function(req, res){
  
- res.send("GET request successful to both your terminal
+ res.send("Get request successful to both your terminal
 and your browser console");
 
 });
