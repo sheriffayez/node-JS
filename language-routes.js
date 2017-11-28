@@ -3,20 +3,21 @@ var routes = express.Router();
 
 routes.get("/",function(req, res){
  
- res.send("this is your basline");
+ res.send("GET request successful to both your terminal
+and your browser console");
 
 });
 
 routes.post("/order1", function(req, res) {
-res.send("JavaScript is pretty neat");
+res.send("post request is working ");
 });
 
 routes.put("/order2", function(req, res) {
-res.send("But so is NodeJS...");
+res.send("put request is working ");
 });
 
 routes.delete("/order3", function(req, res) {
-res.send("AngularJS is pretty solid");
+res.send("Delete request works fine");
 });
 
 module.exports = routes;
