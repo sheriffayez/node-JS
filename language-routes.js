@@ -1,7 +1,7 @@
 var express = require("express");
 var routes = express.Router();
 
-routes.get("/",function(req, res){
+routes.get("/order",function(req, res){
  
  res.send("Get is successful to both your terminal
 and your browser console");
